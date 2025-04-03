@@ -11,9 +11,15 @@ Data Files:
 - .mat files need to be downloaded to the Data/Nmatchstim/ directory (see instructions below)
 
 All figures are already generated and are included in the notebooks along with the corresponding code. Note that running the entire notebook may take a while due to the computationally intensive permutation analyses involved.
+Downloading .mat Files:
+
+1. run download_data.py file 
+
+or 
+
+2. Download the file from https://drive.google.com/file/d/17GhaISng0Bh6V7WNidmrz0QVqZeee89Z/view?usp=drive_link
 
 Extracting .mat Files:
-The .mat files are included as a zip file in the Data/ directory. There are two ways to extract them:
 
 1. Automatic extraction when running notebooks:
    - The first cell of each notebook will automatically extract the .mat files from the zip
@@ -21,7 +27,6 @@ The .mat files are included as a zip file in the Data/ directory. There are two 
 2. Using the extraction script:
    - Run the script: python extract_mat_files.py
    - The script will extract all .mat files to the Data/Nmatchstim/ directory
-
 Alternatively, you can manually extract the .mat files from the zip and place them in the Data/Nmatchstim/ directory.
 
 GPU Acceleration:
