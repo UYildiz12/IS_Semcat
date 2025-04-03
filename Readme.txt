@@ -4,7 +4,7 @@ This repository contains several notebooks that perform analyses and generate fi
 
 Running the Notebooks
 File Path Configuration:
-To run the notebooks, update the file paths for the JSON files to match your local setup. Alternatively, you can upload the JSON files to your personal or dedicated Google Drive and run the notebooks without modification.
+To run the notebooks, update the file paths for the JSON files match the file paths in the scripts.
 
 All figures are already generated and are included in the notebooks along with the corresponding code. Note that running the entire notebook may take a while due to the computationally intensive permutation analyses involved.
 
